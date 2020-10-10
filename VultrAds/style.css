@@ -1,0 +1,613 @@
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+
+
+@media (max-width: 576px) { 
+
+    *
+    {
+padding: 0;
+margin: 0;
+
+    }
+    body{
+        overflow-x: hidden;
+    }
+    #serve .img-fluid
+    {
+        padding: 0!important;
+    }
+
+    .container-fluid {
+      padding-right:0!important;
+      padding-left:0!important;
+      margin-right:auto!important;
+      margin-left:auto!important;
+
+   }
+   
+   #serve p
+   {
+      padding: 20px 10px!important;
+   } 
+   
+   
+ }
+
+
+
+#nav-bar
+{
+    top: 0;
+    position: sticky;
+    z-index: 99;
+    background: white!important;
+    border-bottom: 1px solid #C0C0C0; ;
+    
+}
+
+.navbar-toggler
+{
+  background-color: #4056a1!important;
+ 
+}
+.navbar-brand{
+    z-index: 1;
+}
+#nav-bar a 
+{
+    color: #000080!important;  
+}
+
+    
+#nav-bar .navbar-brand 
+{
+    font-size: 30px!important;    
+}
+
+
+.dropdown-item
+{
+    text-transform: capitalize; 
+}
+
+#nav-bar .navbar-nav .dropdown .dropdown-menu a
+{
+    font-size: 15px;
+}
+
+
+/* removes btn primary border onclick*/
+.btn:focus, .btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+/* removes btn primary border onclick*/
+
+
+#nav-bar .navbar-nav a
+{
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+#nav-bar .navbar-nav a:hover
+{
+    font-size: 20px;
+    color: #ffcb9a!important;
+    
+}
+
+#nav-bar .dropdown-menu{
+    margin-top: 14px;
+}
+
+
+#slider 
+{
+    border-bottom: 1px solid #C0C0C0;
+}
+.carousel-item{
+    max-height: 685px;
+  
+} 
+.carousel-item img{
+    max-height: 685px;
+    
+}
+
+ .display-1
+{
+    position: relative!important;
+ z-index: 0;
+}
+
+
+#testimonials
+{
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#testimonials h1
+{
+text-align: center;
+color: #333!important;
+padding-bottom: 10px;
+}
+#testimonials h1::after
+{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+#testimonials .row
+{
+margin-top: 30px;
+}
+#testimonials .col-md-4
+{
+    margin: 40px auto;
+}
+.profile
+{
+    padding: 70px 10px 10px;
+    background-color: #efefef;
+    border: 1px solid #DCDCDC;
+}
+.profile img
+{
+    top: -60px;
+position: absolute;
+    left: calc(50% -60px);
+  border: 7px solid white;
+    
+}
+.profile h3
+{
+    font-size: 20px;
+    margin-top: 10px;
+    color: #007bff;
+    text-align: center ;
+}
+
+#testimonials span
+{
+    font-size: 12px;
+    color: #333;
+}
+blockquote
+{
+    font-size: 16px;
+    line-height: 30px;
+   
+
+}
+ blockquote::before
+{
+    content: open-quote;
+    font-size: 50px;
+    color: #007bff;
+    position: relative;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+}
+.user
+{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+
+blockquote::after {
+    content: close-quote;
+    font-size: 50px;
+    color: #007bff;
+    position: relative;
+    line-height: 10px;
+    bottom: -15px;
+    left: 5px;
+  }
+
+  .profile:hover {
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+
+
+  
+#how-we-work
+{
+    border-bottom: 1px solid #C0C0C0;
+}
+  #how-we-work h1
+{
+text-align: center;
+color: #333!important;
+padding-bottom: 10px;
+padding-top: 50px;
+}
+#how-we-work h1::after
+{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+#how-we-work .container 
+{
+    text-align: center;
+}
+#how-we-work p{
+    margin-top: 20px;
+}
+#how-we-work button{
+ margin-top: 20px;
+ margin-bottom: 50px;
+}
+
+
+
+
+
+#our-work h1
+{
+text-align: center;
+color: #333!important;
+padding-bottom: 10px;
+}
+#our-work h1::after
+{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+#our-work .container 
+{
+    text-align: center;
+}
+#our-work p{
+    margin-top: 20px;
+}
+#our-work button{
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+
+ #our-work .icon
+{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+ color: #333;
+  
+     border-radius: 50%;
+    
+}
+
+#work .col-xl-3
+{
+    padding: 50px 0 0 0;
+}
+
+#services
+{
+    background-color: #efefef;
+    border-bottom:1px solid  #C0C0C0;
+}
+
+
+
+#services h1
+{
+text-align: center;
+color: #333!important;
+padding-bottom: 10px;
+}
+#services h1::after
+{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+#services .container 
+{
+    text-align: center;
+}
+#services p{
+    margin-top: 20px;
+}
+
+
+#services .icon
+{
+    font-size: 50px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+ color: #333;
+    
+     border-radius: 50%;
+    
+}
+
+#services .container .col-md-6
+{
+
+    padding-top: 10px!important;
+    padding-bottom: 10px!important;
+}
+
+
+#services .container .col-sm-12
+{
+
+    padding-top: 10px!important;
+    padding-bottom: 10px!important;
+}
+#services .container .col-lg-4
+{
+
+    padding-top: 10px!important;
+    padding-bottom: 10px!important;
+}
+
+.card:hover {
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+
+  
+   
+  #serve .img-fluid
+  {
+padding: 0 40px 40px 40px;
+  }
+
+#serve p{
+  
+    padding: 40px 120px;
+}
+
+  #serve .row .img-fluid
+  {
+border: 1px solid #C0C0C0;
+padding: 0;
+}
+
+ 
+
+  #serve .col-md-6 h2
+  {
+      padding: 20px;
+  }
+  #serve .col-md-6 p
+  {
+      padding: 40px;
+  }
+
+
+  #serve .row .col-md-6 p{
+      padding: 10px!important;
+      text-align: justify!important;
+  }
+  #serve .row .col-md-6 ul{
+    padding-left: 30px!important;
+    
+}
+
+
+.row.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  
+    & > [class^="col-"],
+    & > [class*=" col-"] {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+
+
+
+  #our-work .row{
+      padding-top: 20px;
+      padding-bottom: 10px;
+  }
+
+  .jumbotron:hover {
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 1);
+    cursor: pointer;
+  }
+
+
+  
+#contact
+{
+    background: white;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    color: #777;
+    
+}
+
+#contact h1
+{
+text-align: center;
+color: #333!important;
+padding-bottom: 10px;
+padding-top: 50px;
+}
+#contact h1::after
+{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+
+
+.contact-form
+{
+    padding: 15px;
+    
+}
+
+.form-group
+{
+    border: 1px solid #C0C0C0;
+}
+.follow{
+    border: 1px solid #C0C0C0;
+}
+
+.form-control
+{
+    border-radius: 0 !important;
+    border: none!important;
+   
+    
+}
+::placeholder
+{
+    color: #999!important;
+    
+    
+    
+}
+.follow
+{
+    background-color: #fff;
+    padding: 10px;
+    margin: 13px;
+}
+.contact-info .fa
+{
+    margin: 10px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+
+#footer
+{
+    border-top: 1px solid 	#C0C0C0 ;
+    background-color:	#efefef;
+    padding: 20px;
+    
+}
+
+#footer ul li 
+{
+list-style-type: none;
+
+}
+
+#footer h1{
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 10px 0;
+    color:  		#000080;
+    text-transform: uppercase;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 32px;
+}
+#footer ul li a
+{
+    color: 	#000080 ;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#footer ul li a:hover
+{
+    font-size: 18px;
+ color: #fa5b3d;
+ 
+}
+
+#footer p a{
+    color: black;
+}
+
+
+
+#copyright
+{
+    border-top: 1px solid #C0C0C0;
+    padding: 10px;
+    background-color: 	#D3D3D3;
+}
+
+#copyright p{
+    color: #333;
+}
+#copyright a{
+    color: 	#000080;
+    opacity: 90%;
+    font-size: 20px;
+    text-decoration: none;
+  
+}
+
+
+
+.phonelink{
+    position: fixed; /* Lock location always on the scree */
+    bottom: 0; /* Set to the bottom */
+    right: 0; /* Set to the right */
+    margin: 20px; /* Add space around background */
+
+}
+.phoneicon{
+    width: 80px; /* Set width of icon */
+    height: 80px; /* Set height of icon */
+}
+@media screen and (max-width: 480px){
+    .lgscreenphone{
+        display: none;  /* On small screens make phone icon disappear */
+    }
+    .mbscreenphone{
+        display: block; /* On small screens make phone icon appear */
+    }
+}
+@media screen and (min-width: 481px){
+    .mbscreenphone{
+        display: none; /* On large screens make phone icon disappear */
+    }
+    .lgscreenphone{
+        display: block; /* On large screens make phone icon appear */
+    }
+}
